@@ -30,7 +30,8 @@ public class Bottle {
 
     public void setDetails() {
         System.out.println("Please enter a Height : ");
-        Scanner input = new Scanner(System.in);
+       Scanner input = new Scanner(System.in);
+       
         this.height = input.nextFloat();
 
         System.out.println("Please enter a Volume : ");
